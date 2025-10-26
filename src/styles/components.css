@@ -77,7 +77,7 @@
   @apply list-none!;
 }
 .tab-nav-item {
-  @apply cursor-pointer border-b-[3px] border-border py-2 text-lg text-text-dark opacity-80 dark:border-light;
+  @apply cursor-pointer border-b-[3px] border-border py-2 text-lg text-text-dark opacity-80 dark:border-darkmode-border;
   @apply my-0!;
   @apply px-8!;
 }

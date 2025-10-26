@@ -1,6 +1,6 @@
 {
   "name": "themeplate",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "description": "Gulp and Tailwindcss boilerplate for creating HTML templates",
   "author": "Zeon Studio",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/postcss": "^4.1.14",
+    "@tailwindcss/postcss": "^4.1.16",
     "@tailwindcss/typography": "^0.5.19",
     "browser-sync": "^3.0.4",
     "gulp": "^5.0.1",
@@ -29,6 +29,6 @@
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
     "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.6.14"
+    "prettier-plugin-tailwindcss": "^0.7.1"
   }
 }
