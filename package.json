@@ -1,22 +1,23 @@
 {
-  "name": "themeplate",
-  "version": "4.3.0",
+  "name": "windplate",
+  "version": "4.4.0",
   "description": "Gulp and Tailwindcss boilerplate for creating HTML templates",
   "author": "Zeon Studio",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build",
-    "deploy": "gulp deploy",
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"gulp dev\"",
+    "build": "node scripts/themeGenerator.js && gulp build",
+    "deploy": "node scripts/themeGenerator.js && gulp deploy",
     "format": "prettier -w ./src",
     "remove-darkmode": "node scripts/removeDarkmode.mjs && yarn format"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/typography": "^0.5.19",
     "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
     "gulp": "^5.0.1",
     "gulp-file-include": "^2.3.0",
     "gulp-header-comment": "^0.10.0",
@@ -28,7 +29,8 @@
     "gulp-wrapper": "^1.0.0",
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
-    "prettier": "^3.6.2",
-    "prettier-plugin-tailwindcss": "^0.7.1"
+    "prettier": "^3.7.3",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwind-bootstrap-grid": "^6.0.0"
   }
 }

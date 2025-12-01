@@ -1,11 +1,11 @@
 <h1 align="center">HTML Starter Template Built With Gulp & Tailwind CSS </h1>
 
-<p align="center">Themeplate is a free HTML Starter Template built with Gulp and TailwindCSS, providing everything you need to jumpstart your Gulp project and save valuable time.</p>
+<p align="center">Windplate is a free HTML Starter Template built with Gulp and TailwindCSS, providing everything you need to jumpstart your Gulp project and save valuable time.</p>
 
 <p align="center">Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
 
 <h2 align="center">
-<a target="_blank" href="https://themeplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-themeplate-netlify-app/1to2abs0qz?form_factor=desktop">Page Speed (95+)🚀</a>
+<a target="_blank" href="https://windplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-windplate-netlify-app/1to2abs0qz?form_factor=desktop">Page Speed (95+)🚀</a>
 </h2>
 
 ## 🚀 Getting Started
@@ -38,8 +38,8 @@ npm run build
 
 ## 🐞 Reporting Issues
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/themeplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/themeplate/issues).
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/windplate/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/windplate/issues).
 
 <!-- licence -->
 
@@ -47,7 +47,7 @@ If your problem or idea has not been addressed yet, feel free to [open a new iss
 
 Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
 
-**Code License:** Released under the [MIT](https://github.com./zeon-studio/themeplate/blob/main/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com./zeon-studio/windplate/blob/main/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
