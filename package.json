@@ -31,6 +31,6 @@
     "jshint-stylish": "^2.2.1",
     "prettier": "^3.8.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "tailwind-bootstrap-grid": "^6.0.0"
+    "tailwind-bootstrap-grid": "^7.0.0"
   }
 }
