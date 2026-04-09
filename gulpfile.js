@@ -72,11 +72,11 @@ function pages() {
     .pipe(
       wrapper({
         header:
-          "<!DOCTYPE html>\n<html lang=\"zxx\">\n@@include('head.html')\n@@include('header.html')\n<body>",
+          '<!DOCTYPE html>\n<html lang="zxx">\n@@include(\'head.html\')\n@@include(\'header.html\')\n<body class="flex flex-col min-h-screen">\n<main class="grow">',
         footer:
           node_env === "dev"
-            ? "@@include('components/tw-size-indicator.html')\n @@include('footer.html')\n</body>\n</html>"
-            : "@@include('footer.html')\n</body>\n</html>",
+            ? "</main>\n@@include('components/tw-size-indicator.html')\n @@include('footer.html')\n</body>\n</html>"
+            : "</main>\n@@include('footer.html')\n</body>\n</html>",
       }),
     )
     .pipe(
